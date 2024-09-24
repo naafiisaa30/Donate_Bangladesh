@@ -1,9 +1,9 @@
+
+// Blog button Clicked
 document.getElementById('blog-btn').addEventListener('click', function(event){
 
-    //step-2   ----> prevent the reload
     event.preventDefault(); 
     window.location.href = '/blog.html';
-
 
 })
 

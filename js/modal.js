@@ -54,14 +54,6 @@ document.getElementById('donate-btn-3').addEventListener('click', function() {
 
 // Close the modal when clicking the close button
 closeModalButton.addEventListener('click', function() {
-  // Process the donation amount when closing the modal
-  const donationValue = currentDonationInput.value;
-  
-  if (donationValue && !isNaN(donationValue)) {
-    const existingAmount = parseInt(currentDonationDisplay.textContent, 10);
-    const newAmount = existingAmount + parseInt(donationValue, 10);
-    currentDonationDisplay.textContent = newAmount + ' BDT';  // Update the display
-  }
   
   closeModal(); // Close the modal after processing
 });
