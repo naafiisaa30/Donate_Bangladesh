@@ -8,11 +8,7 @@ document.getElementById('blog-btn').addEventListener('click', function(event){
 })
 
 // Home button clicked
-document.getElementById('home-btn').addEventListener('click', function(event){
-
-    //step-2   ----> prevent the reload
-    event.preventDefault(); 
-    window.location.href = '/index.html';
-
-
-})
+    document.getElementById('home-btn').addEventListener('click', function(event){
+        event.preventDefault();
+        window.location.href = '/index.html';
+    });
