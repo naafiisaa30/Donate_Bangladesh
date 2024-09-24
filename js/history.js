@@ -1,7 +1,7 @@
 // Get buttons, sections, and other elements
 const donationBtn = document.getElementById('donation-button');
 const historyBtn = document.getElementById('history-button');
-const donationSection = document.querySelector('main > section:first-of-type');
+const donationSection = document.getElementById('donationSection');
 const historySection = document.getElementById('historySection');
 const historyList = document.getElementById('historyList');
 
@@ -22,8 +22,6 @@ historyBtn.addEventListener("click", function(){
     historyBtn.classList.add('bg-lime-500');
     donationBtn.classList.remove('bg-lime-500');
 });
-
-// Function to add donation to history
 // Function to add donation to history
 function addDonationToHistory(place, cause, amount) {
     if (amount && amount > 0) {
