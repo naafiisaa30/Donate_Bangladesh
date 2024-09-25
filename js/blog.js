@@ -3,7 +3,7 @@
 document.getElementById('blog-btn').addEventListener('click', function(event){
 
     event.preventDefault(); 
-    window.location.href = 'blog.html';
+    window.location.href = 'https://naafiisaa30.github.io/Donate_Bangladesh/blog.html';
 
 })
 
